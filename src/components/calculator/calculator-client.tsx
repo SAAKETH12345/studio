@@ -9,7 +9,7 @@ import {
   X,
   Divide,
   Percent,
-  SquareRoot,
+  SquareDot,
   Superscript,
   BrainCircuit,
   Eraser,
@@ -153,7 +153,7 @@ export function CalculatorClient() {
     { value: "0", type: "number" },
     { value: ".", type: "decimal", label: "." },
     { value: "=", type: "equals", className: "bg-primary hover:bg-primary/90", label: "=" },
-    { value: "sqrt(", type: "function", icon: SquareRoot },
+    { value: "sqrt(", type: "function", icon: SquareDot },
   ];
 
   return (
